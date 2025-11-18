@@ -75,3 +75,31 @@ h1 {
     width: 200px; 
     line-height: 1.4;
 }
+
+@media (min-width: 600px) {
+    #main-nav ul li {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    #container2 p {
+        width: 250px;
+    }
+}
+
+@media (min-width: 900px) {
+    #main-nav ul {
+        justify-content: space-between;
+    }
+
+    .container {
+        flex-wrap: nowrap;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
