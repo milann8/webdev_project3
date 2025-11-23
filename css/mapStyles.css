@@ -39,17 +39,16 @@ html{
     padding: 20px;
 }
 
-#map, #canvas {
-    width: 700px;
-    height: 500px;
-}
-
 #map {
+    width: 700px;
+    height: 500px; 
     background-color: lightgray; 
 }
 
 #canvas {
-    background-color: rgb(235, 34, 241);
+    width:750;
+    height:550;
+    background-color: rgb(247, 0, 255);
 }
 
 #questionButton {
