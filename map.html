@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Map</title>
-<link rel="stylesheet" href="css/mapStyles.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mapStyles.css">
+</head>
 <body>
     <header>
         <nav id="main-nav">
@@ -13,13 +17,13 @@
             </ul>
         </nav>
     </header>
-    <div id="map"></div>
     <div id="wrapper">
-        <div id="canvas">
-            <script src="map.js"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async defer></script>
-        </div>
+        <div id="map"></div>
+        <div id="canvas"></div>
     </div>
     <button id="questionButton">Questions</button>
+    <script src="map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async defer></script>
+
 </body>
 </html>

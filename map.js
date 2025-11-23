@@ -5,9 +5,12 @@ function initMap() {
     });
     var marker = new google.maps.Marker({
         position: { lat: 10.774102, lng: 106.703700 },
-        map: map,
-        title: "Hello from Saigon!"
+        map: map
     });
+    var infoWindow = new google.maps.InfoWindow({
+        content: "<h3>Hello from Saigon!</h3>"
+    });
+    infoWindow.open(map, marker);
     new google.maps.Circle({
         strokeColor: "#ff00ffff",
         strokeOpacity: 0.8,
