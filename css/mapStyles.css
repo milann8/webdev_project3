@@ -36,13 +36,27 @@ html{
     overflow: hidden;
 }
 #canvas {
-    width:700px;
+    width: 700px;
     height: 500px;
-    background-color:rgb(235, 34, 241);
-    margin:30px auto;
+    background-color: rgb(235, 34, 241);
+}
+#questionButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#wrapper {
+    max-width: 850px;
+    margin: 20px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+    background-color: rgb(235, 102, 240);
+    padding: 20px;
 }
 #map {
     width: 700px;
     height: 500px;
-    background-color: lightgray;
+    background-color: lightgray; 
 }
