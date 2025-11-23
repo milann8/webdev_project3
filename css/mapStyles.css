@@ -29,34 +29,31 @@ html{
     color: #ff009d;
 }
 #wrapper {
-    width:850px;
-    height: 600px;
-    background-color:rgb(235, 102, 240);
-    margin:0 auto;
-    overflow: hidden;
-}
-#canvas {
-    width: 700px;
-    height: 500px;
-    background-color: rgb(235, 34, 241);
-}
-#questionButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-#wrapper {
     max-width: 850px;
     margin: 20px auto; 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     gap: 20px; 
     background-color: rgb(235, 102, 240);
     padding: 20px;
 }
-#map {
+
+#map, #canvas {
     width: 700px;
-    height: 500px; 
-    margin: 0 auto; 
+    height: 500px;
+}
+
+#map {
+    background-color: lightgray; 
+}
+
+#canvas {
+    background-color: rgb(235, 34, 241);
+}
+
+#questionButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
